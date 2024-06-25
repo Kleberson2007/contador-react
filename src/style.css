@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+section {
+    background-color: grey;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.botoes {
+    margin-bottom: 30px;
+}
+.botoes button {
+    margin: 20px;
+}
+
+p {
+    font-size: 200px;
+}
+
+h1 {
+    font-size: 100px;
+}

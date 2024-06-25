@@ -1,4 +1,4 @@
-
+import './style.css'
 import React, { useState } from 'react';
 
 export default function App() {
@@ -55,10 +55,15 @@ export default function App() {
             console.log(numero)
         }
 
+        function zerar() {
+            setNumero(numero - numero)
+        }
+
     return (
         <section>
             <h1>Contador</h1>
             <p>{numero}</p>
+            <div class="botoes">
             <button onClick={menos10000}>-10000</button>
             <button onClick={menos1000}>-1000</button>
             <button onClick={menos100}>-100</button>
@@ -69,6 +74,8 @@ export default function App() {
             <button onClick={mais100}>+100</button>
             <button onClick={mais1000}>+1000</button>
             <button onClick={mais10000}>+10000</button>
+            </div>
+            <button onClick={zerar}>zerar</button>
         </section>
     )
 }
