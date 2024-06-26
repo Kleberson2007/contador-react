@@ -13,7 +13,6 @@ body {
 }
 
 section {
-    background-color: grey;
     padding: 30px;
     text-align: center;
     border-radius: 20px;
@@ -28,8 +27,35 @@ section {
 
 p {
     font-size: 200px;
+    padding-top: 10px;
 }
 
 h1 {
     font-size: 100px;
+    padding-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.zerar:hover {
+    background-color: yellow;
+    transition: 0.5s;
+}
+
+.negativos:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+.positivos:hover {
+    background-color: limegreen;
+    transition: 0.5s;
+}
+
+.aleatorio:hover {
+    background-color: yellow;
+    transition: 0.5s;
 }
