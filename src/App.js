@@ -76,7 +76,7 @@ export default function App() {
     return (
         <section>
             <h1>Contador</h1>
-            <button className='aleatorio' onClick={numeroaleatorio}>aleatório 1-100.000</button>
+            <button className='aleatorio' onClick={numeroaleatorio}>aleatório (-100.00 a 100.000)</button>
             <p>{numero}</p>
             <div className="botoes">
             <button className='negativos' onClick={menos10000}>-10000</button>
