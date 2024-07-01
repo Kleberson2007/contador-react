@@ -22,13 +22,21 @@ section {
 .botoes {
     margin-bottom: 30px;
 }
+
 .botoes button {
     margin: 20px;
+}
+
+p.animated {
+    animation-name: numeroanimaçao;
+    animation: 0.5s forwards;
 }
 
 p {
     font-size: 200px;
     padding-top: 10px;
+    animation-name: numeroanimaçao;
+    animation-duration: 200ms;
 }
 
 h1 {
@@ -43,22 +51,73 @@ button {
     cursor: pointer;
 }
 
+.zerar {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    transition: background-color 0.5s, padding 0.5s, border-radius 0.5s, font-size 0.5s;
+}
+
 .zerar:hover {
     background-color: yellow;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: 19px;
     transition: 0.5s;
+}
+
+.negativos {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    transition: background-color 0.5s, padding 0.5s, border-radius 0.5s, font-size 0.5s;
 }
 
 .negativos:hover {
     background-color: red;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: 19px;
     transition: 0.5s;
 }
+
+.positivos {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    transition: background-color 0.5s, padding 0.5s, border-radius 0.5s, font-size 0.5s;
+}
+
 
 .positivos:hover {
     background-color: limegreen;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: 19px;
     transition: 0.5s;
 }
 
+.aleatorio{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    transition: background-color 0.5s, padding 0.5s, border-radius 0.5s, font-size 0.5s;
+}
+
+
 .aleatorio:hover {
     background-color: yellow;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: 19px;
     transition: 0.5s;
+}
+
+@keyframes numeroanimaçao {
+    from {opacity: 30%;margin-bottom: 10px;}
+    to {opacity: 100%;margin-bottom: 0px;}
 }

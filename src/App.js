@@ -15,10 +15,11 @@ export default function App() {
             numero = limiteMaximo;
         }
 
-    function numeroaleatorio() {
-        const numeroaleatorio = Math.floor(Math.random() * 200000) - 100000;
-        setNumero(numeroaleatorio)
-    }
+        function numeroaleatorio() {
+            const numeroaleatorio = Math.floor(Math.random() * 200000) - 100000;
+            setNumero(numeroaleatorio)
+        }
+
         function menos10000() {
             setNumero(numero - 10000)
             console.log(numero)
@@ -77,7 +78,7 @@ export default function App() {
         <section>
             <h1>Contador</h1>
             <button className='aleatorio' onClick={numeroaleatorio}>aleatório (-100.00 a 100.000)</button>
-            <p>{numero}</p>
+            <p className='animated'>{numero}</p>
             <div className="botoes">
             <button className='negativos' onClick={menos10000}>-10000</button>
             <button className='negativos' onClick={menos1000}>-1000</button>
