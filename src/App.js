@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 
 export default function App() {
     console.log("renderizando App()...")
-    let [numero, setNumero] = useState(0)
+    let [numero, setNumero] = useState(0);
+
     const limiteMinimo = -100000;
     const limiteMaximo = 100000;
 

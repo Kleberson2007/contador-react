@@ -29,14 +29,13 @@ section {
 
 p.animated {
     animation-name: numeroanimaçao;
-    animation: 0.5s forwards;
 }
 
 p {
     font-size: 200px;
     padding-top: 10px;
     animation-name: numeroanimaçao;
-    animation-duration: 200ms;
+    animation-duration: 150ms;
 }
 
 h1 {
@@ -118,6 +117,6 @@ button {
 }
 
 @keyframes numeroanimaçao {
-    from {opacity: 30%;margin-bottom: 10px;}
-    to {opacity: 100%;margin-bottom: 0px;}
+    from {opacity: 30%;margin-top: 12px;}
+    to {opacity: 100%;margin-top: 0px;}
 }
