@@ -116,10 +116,6 @@ button {
     transition: 0.5s;
 }
 
-.animated {
-    animation: numeroanimação 1s ease-in-out;
-}
-
 @keyframes numeroanimaçao {
     from {opacity: 30%;margin-top: 12px;}
     to {opacity: 100%;margin-top: 0px;}
